@@ -1,0 +1,26 @@
+.headline {
+    margin-left: 70px;
+}
+
+.mybutton {
+    position: absolute;
+    left: 10px;
+}
+.profile img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.myoffcanvas{
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+.myownlink{
+    color: black;
+    margin: 5px;
+    display: block;
+    transition: 0.4s;
+}
+.myownlink:hover{
+    color: red;
+}

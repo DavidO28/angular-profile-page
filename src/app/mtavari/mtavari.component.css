@@ -1,0 +1,23 @@
+.table {
+    padding: 5px;
+}
+.tablebox{
+    padding: 0 10px;
+    box-shadow: 4px 4px 5px black;
+}
+.tdcol {
+    display: flex;
+    flex-direction: column;
+}
+
+tr,
+th {
+    width: 100%;
+}
+
+tbody,
+.maintr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

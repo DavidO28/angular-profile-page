@@ -1,0 +1,41 @@
+<div class="tablebox">
+  <table class="table">
+    <thead>
+      <tr class="maintr">
+        <th scope="col">No.</th>
+        <th scope="col">სახელი</th>
+        <th scope="col">გვარი</th>
+        <th scope="col">ასაკი</th>
+        <th scope="col">წონა</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row" class="tdcol" *ngFor="let person of persons; index as i">
+          {{person.id}}
+          <!-- {{i+1}} -->
+        </th>
+      </tr>
+      <tr>
+        <td class="tdcol" *ngFor="let person of persons; ">
+          {{person.name}}
+        </td>
+      </tr>
+      <tr>
+        <td class="tdcol" *ngFor="let person of persons; ">
+          {{person.surname}}
+        </td>
+      </tr>
+      <tr>
+        <td class="tdcol" *ngFor="let person of persons; ">
+          {{person.age}}
+        </td>
+      </tr>
+      <tr>
+        <td class="tdcol" *ngFor="let person of persons; ">
+          {{person.weight}}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
